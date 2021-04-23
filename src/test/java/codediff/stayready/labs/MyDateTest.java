@@ -25,7 +25,7 @@ public class MyDateTest {
         MyDate date = new MyDate();
 
         // When
-        date.day = 22;
+        date.date = 22;
         date.month = 6;
         date.year = 1996;
         String actual = date.toString();
